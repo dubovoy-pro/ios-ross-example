@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  bcoin
+
+  Created by Yury Dubovoy on 10.01.2022.
+  
+*/
+
+// MARK: - AssetDetails
+
+"assetsDetails.marketCap" = "Market Cap";
+"assetsDetails.supply" = "Supply";
+"assetsDetails.title" = "Assets Details";
+"assetsDetails.volumeUsd24Hr" = "Volume (24h)";
+
+// MARK: - Assets
+
+"assetsTab.title" = "Assets";
+
+// MARK: - Settings
+
+"settingsTab.title" = "Settings";
+"settingsTab.icon" = "Icon";
+
+// MARK: - Watchlist
+
+"watchlistTab.delete" = "Delete";
+"watchlistTab.noDataTitle" = "No assets yet";
+"watchlistTab.noDataHeader" = "Your Watchlist will appear here";
+"watchlistTab.title" = "Watchlist";
+
+// MARK: - Content
+
+"content.noDataTitle" = "No assets\nfound";
+"content.noDataSubtitle" = "Try searching for\nother keywords";
+
+// MARK: - Error
+
+"error.alertTitle" = "Error";
+"error.alertOk" = "OK";
+"error.limitsExceeded" = "You exceeded your 200 request(s) rate limit of your FREE plan";
+"error.unknown" = "An unknown error has occurred";

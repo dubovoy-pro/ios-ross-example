@@ -1,0 +1,24 @@
+xcassets:
+- inputs: bcoin/Resources/Assets.xcassets
+  outputs:
+    templatePath: swiftgen/templates/images/swift4.stencil
+    output: bcoin/Generated/Images.swift
+    params:
+      enumName: Images
+      providesNamespaces: true
+
+- inputs:  bcoin/Resources/Colors.xcassets
+  outputs:
+    templatePath: swiftgen/templates/colors/color.stencil
+    output: bcoin/Generated/Сolors.swift
+    params:
+        enumName: UIColor
+        providesNamespaces: true
+
+strings:
+  inputs: bcoin/Resources/en.lproj
+  outputs:
+    templateName: structured-swift5
+    output: bcoin/Generated/Strings.swift
+    params:
+        enumName: Strings

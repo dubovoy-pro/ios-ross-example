@@ -1,0 +1,14 @@
+//
+//  prod.xcconfig
+//  bcoin
+//
+//  Created by Yury Dubovoy on 10.01.2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APPICON_NAME = AppIconProd
+DISPLAY_APP_NAME = Bcoin
+BUNDLE_ID = pro.dubovoy.bcoin.app-prod
+API_VERSION = 2
+API_URL = https:/$()/api.coincap.io/v

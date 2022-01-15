@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  bcoin
+
+  Created by Yury Dubovoy on 10.01.2022.
+  
+*/
+
+// MARK: - AssetDetails
+
+"assetsDetails.marketCap" = "Емкость рынка";
+"assetsDetails.supply" = "Доступно";
+"assetsDetails.title" = "Описание актива";
+"assetsDetails.volumeUsd24Hr" = "Объем (24ч)";
+
+
+
+// MARK: - Assets
+
+"assetsTab.title" = "Активы";
+
+// MARK: - Settings
+
+"settingsTab.title" = "Настройки";
+"settingsTab.icon" = "Значок приложения";
+
+// MARK: - Watchlist
+
+"watchlistTab.delete" = "Удалить";
+"watchlistTab.noDataTitle" = "Пока ничего нет";
+"watchlistTab.noDataHeader" = "Здесь будут отслеживаемые активы";
+"watchlistTab.title" = "Отслеживаемое";
+
+// MARK: - Content
+
+"content.noDataTitle" = "Активы\nне найдены";
+"content.noDataSubtitle" = "Попробуйте поискать по другим\nключевым словам";
+
+// MARK: - Error
+
+"error.alertTitle" = "Ошибка";
+"error.alertOk" = "OK";
+"error.limitsExceeded" = "Вы превысили лимит в 200 запросов (бесплатный тариф)";
+"error.unknown" = "Произошла неизвестная ошибка";
