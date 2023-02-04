@@ -1,3 +1,7 @@
+> **Warning**
+The repo is deprecated. Please refer to [https://rossmanual.com](https://rossmanual.com)
+---
+
 # ROSS Architecture example project (iOS version)
 
 ## App description
@@ -18,16 +22,15 @@ The ability to make true integration tests is a coolest feature of the ROSS arch
 ## Build process
 Use CocoaPods to install dependencies.
 
-The project contains separate Build Schemes for staging and production 
-environments. It's allows to install test (staging) and production app both 
+The project contains separate Build Schemes for staging and production
+environments. It's allows to install test (staging) and production app both
 into the same device.
 
-Each scheme has two Build Configuration: Debug and Release. It prevents sending analytical events during development/debugging process. 
+Each scheme has two Build Configuration: Debug and Release. It prevents sending analytical events during development/debugging process.
 
 SwiftGen is used to generate type-safe resource references.
 
 ## Development process
 UIDevStand target is intended to develop and test the UI components like ViewControllers in an isolated environment.
 
-Use NetworkProviderDev in case of troubles with Coincap API (set 'devstand' as API URL in staging.xconfig). 
-
+Use NetworkProviderDev in case of troubles with Coincap API (set 'devstand' as API URL in staging.xconfig).
